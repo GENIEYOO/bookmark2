@@ -25,7 +25,7 @@ SECRET_KEY = '6cksfuxw@poni07sv35(ww_2%6p$$=t$#wle@ia$j&mjc=k-p='
 #회원가입했을 때 회원들의 패스워드를 암호화
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 #디플로이시는 꺼둔다.
 ALLOWED_HOSTS = ['*']
 #어느 서버에서 실행할거냐. 런칭할 도메인 주소를 적어놓는다.
@@ -129,4 +129,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/jiinyoo/bookmark/static'
 #CSS 관련 파일
