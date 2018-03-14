@@ -1,0 +1,5 @@
+*.pyc
+*~
+/venv
+__pysche__
+db.sqlite3
